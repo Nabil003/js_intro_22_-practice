@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <!-- main css starts here -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- main css ends here -->
+</head>
+<body>
+
+    <p class="one"></p>
+
+    <script>
+
+        // datatypes
+
+        var number1 = 150;
+        var number2 = 100;
+        document.getElementsByClassName("one")[0].innerHTML = number1 % number2;
+        document.getElementsByClassName("one")[0].style.color = "aquamarine";
+        
+        // functions with parameter
+        function multi(c,d){
+            var multiply = c * d;
+            document.write(multiply + "<br>");
+        }
+        multi(250,20);
+
+        function divi(c,d){
+            var division = c / d;
+            document.write(division + "<br>");
+        }
+        divi(1000,250);
+
+        function add(a,b){
+            var addition = a + b;
+            document.write(addition + "<br>");
+        }
+        add(9000,1000);
+
+        function sub(a,b){
+            var substraction = a - b;
+            document.write(substraction + "<br>");
+        }
+        sub(50000,250000);
+
+
+
+    </script>
+</body>
+</html>
